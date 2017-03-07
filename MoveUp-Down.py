@@ -13,5 +13,5 @@ def handle(text, mic, profile):
 
 
 def isValid(text):
-
+  //will check if the text valid
     return bool(re.search(r'\bdesk\b',text,re.IGNORECASE))
