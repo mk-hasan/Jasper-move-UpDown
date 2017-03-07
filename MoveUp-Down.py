@@ -7,6 +7,7 @@ def handle(text, mic, profile):
     mic.say("Desk Should be move up or down")
     textinput = mic.activeListen()
     if(textinput == "UP"):
+        //mic will say moving up 
         mic.say("Moving Up")
 
 
