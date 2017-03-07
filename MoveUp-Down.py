@@ -1,6 +1,6 @@
 import re
 
-WORDS = ["DESK","UP","DOWN","STOP"]
+WORDS = ["DESK","UP","DOWN","STOP","MOVE"]
 
 def handle(text, mic, profile):
 
